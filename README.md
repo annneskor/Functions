@@ -23,7 +23,7 @@ float area_parallelogram(float h, float a) {
 
 // Определение
 void definition_parallelogram() {
-    printf("Параллелограмм - это четырёхугольник, у которого противоположные стороны попарно параллельны и равны\n");
+    printf("\nПараллелограмм - это четырёхугольник, у которого противоположные стороны попарно параллельны и равны\n");
 
 }
 
@@ -46,7 +46,7 @@ void draw_parallelogram(int width, int height, char symbol) {
 void name_figure(int sides) {
     printf("\nНазвание фигуры: ");
     switch (sides) {
-    case 3: printf("Треугольник\n"); break;
+    case 3: printf("\nТреугольник\n"); break;
     case 4: printf("Параллелограмм\n"); break;
     case 0: printf("Круг\n"); break;
     default: printf("Многоугольник с %d сторонами\n", sides);
@@ -55,12 +55,13 @@ void name_figure(int sides) {
 
 // Главное меню
 void print_menu() {
-    printf("Выберите операцию: \n");
+    printf("\nМеню\n");
     printf("1 - Рассчитать площадь\n");
     printf("2 - Вывести определение фигуры\n");
     printf("3 - Нарисовать фигуру\n");
     printf("4 - Вывести название фигуры\n");
     printf("0 - Выход\n");
+    printf("\nВыберите операцию: ");
 }
 
 int main() {
@@ -71,11 +72,11 @@ int main() {
     char draw_symbol = '*';
     int sides = 4;  // стороны паралллелограмма
 
-    printf("Введите основание параллелограмма (a): ");
+    printf("Введите основание параллелограмма: ");
     scanf("%f", &base);
-    printf("Введите высоту параллелограмма (h): ");
+    printf("Введите высоту параллелограмма: ");
     scanf("%f", &height);
-    printf("Введите угол при основании (α в градусах): ");
+    printf("Введите угол при основании: ");
     scanf("%f", &angle);
 
 
@@ -91,7 +92,7 @@ int main() {
             printf("Основание: %.2f\n", base);
             printf("Высота: %.2f\n", height);
             printf("Угол: %.2f°\n", angle);
-            printf("Площадь = основание × высота = %.2f\n", area);
+            printf("Площадь = основание * высота = %.2f\n", area);
             break;
         }
 
