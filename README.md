@@ -127,8 +127,6 @@ int main() {
 <img width="1225" height="845" alt="image" src="https://github.com/user-attachments/assets/a3af503f-91f6-44ae-9d2b-d4297885d7ac" />
 <img width="1114" height="842" alt="image" src="https://github.com/user-attachments/assets/819a6685-bb49-4285-803e-5c55cb52fc77" />
 
-
-
 ## 3. Информация о разработчике
 
 Нескоромная Анна, группа бИЦ-251.
